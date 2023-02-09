@@ -241,7 +241,7 @@ cat <<__EOF__ >/tmp/pkg.json
     "php80-pecl-APCu",
     "php80-pecl-memcache",
     "php80-pecl-redis",
-    "php80-pecl-imagick",
+    "php80-pecl-imagick-im7-3.7.0_1",
     "php80-pcntl",
     "php80-phar",
     "php80-iconv",
