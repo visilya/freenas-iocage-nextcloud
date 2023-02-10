@@ -313,7 +313,7 @@ iocage exec "${JAIL_NAME}" chmod -R 770 /mnt/files
 #####
 
 if [ "${DATABASE}" = "mariadb" ]; then
-  iocage exec "${JAIL_NAME}" pkg install -qy mariadb106-server php80-pdo_mysql php80-mysqli
+  iocage exec "${JAIL_NAME}" pkg install -qy mariadb103-server php80-pdo_mysql php80-mysqli
 elif [ "${DATABASE}" = "pgsql" ]; then
   iocage exec "${JAIL_NAME}" pkg install -qy postgresql12-server php80-pgsql php80-pdo_pgsql
 fi
